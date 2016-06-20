@@ -1,0 +1,455 @@
+/*=======Geral========*/
+body {
+	margin: 0;
+	padding: 0;
+}
+html,
+body{
+	height: 100%;
+	min-height: 100%;
+}
+*{
+	color: #fff;
+	font-size: 105%;
+	font-family: 'Open Sans', sans-serif;
+}
+.principal {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	height: auto;
+}
+.text-success{
+    font-size: 19px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+ .text-danger{
+ 	font-size: 19px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+/*=======Fim Geral=======*/
+
+/*======Header Index======*/
+.menu-index{
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	position: relative;
+	z-index: 99999;
+
+}
+.menu-index ul{
+	position: absolute;
+	right: 160px;
+    top: 63px;
+}
+.menu-index ul li{
+	position: relative;
+	display: inline-block;
+	right: -35px;
+	margin-right: 15px;
+}
+.menu-index li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+}
+.logo a{
+	position: absolute;
+	font-size: 60px;
+	text-decoration: none;
+	color: #fff;
+	top: 30px;
+    left: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+/*=======Fim Header=======*/
+
+/*======Header Padrão======*/
+.menu-padrao{
+	width: 100%;
+	height: 120px;
+	max-width: 100%;
+	position: relative;
+	z-index: 99999;
+	background-color: #312f38;
+	color: #fff;
+	margin-top: -20px;
+
+}
+.menu-padrao ul{
+	position: absolute;
+	right: 115px;
+    top: 50px;
+}
+.menu-padrao ul li{
+	position: relative;
+	display: inline-block;
+	right: -35px;
+	margin-right: 15px;
+}
+.menu-padrao li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+}
+.logo a{
+    position: absolute;
+    font-size: 50px;
+    text-decoration: none;
+    color: #fff;
+    top: 30px;
+    left: 50px;
+    text-transform: uppercase;
+}
+.text-danger{
+	color: red;
+    position: relative;
+    top: 40px;
+    font-size: 24px;
+    z-index: 99999;
+}
+
+/*=======Fim Header Padrão=======*/
+
+/*========index========*/
+.title{
+	position: absolute;
+    font-size: 80px;
+    z-index: 2;
+  	left: 270px;
+    top: 240px;
+    line-height: 115px;
+}
+
+.video{
+	position: relative;
+	height: auto;
+	left: 0;
+	right: 0;
+	padding: 0!important;
+	margin: 0!important;
+}
+.video video{
+	max-width: 100%;
+	width: 100%;
+	margin-top: -100px;
+}
+main h2{
+	margin: 35px 0;
+	color: #312f38;
+}
+main p{
+	text-align: center;
+	width: 700px;
+	color: #312f38;
+	margin: 35px 0;
+	margin: 0 auto;
+}
+.cadastro{
+	padding: 10px 30px;
+	background-color: #312f38;
+	border: none;
+	margin-bottom: 50px;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #fff!important;
+}
+
+.cadastro a:link,
+.cadastro a:visited,
+.cadastro a:hover,
+.cadastro a:active{
+	text-decoration: none;
+	color: #fff!important;
+} 
+/*========Fim index========*/
+
+/*======Página de Login======*/
+
+#deslogar a:link,
+#deslogar a:visited,
+#deslogar a:hover,
+#deslogar a:active  {
+   text-decoration: none;
+   color: #fff;
+}
+
+.mostra-alerta{
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	z-index: 99999;
+}
+.fa-user{
+	color: #312f38;
+	margin-right: 25px;
+}
+/*====Fim Página de Login======*/
+
+/*====Página de Cadastro=====*/
+.title-cadastro{
+	color: #312f38;
+	margin-top: 110px;
+}
+.table{
+	width: 640px;
+	margin: 35px 0;
+	position: relative;
+    left: 50%;
+    margin-left: -320px;
+    margin-bottom: 50px;
+}
+
+.table td{
+	color: #312f38;
+}
+.table input{
+	border-radius: 6px;
+}
+.fa-sign-in{
+	color: #312f38;
+	margin-right: 25px;
+}
+
+/*====Fim Página de Cadastro=====*/
+
+/*====Página de Perfil=====*/
+
+.table-perfil{
+	width: 640px;
+	margin: 35px 0;
+	position: relative;
+    left: 50%;
+    margin-left: -320px;
+    margin-bottom: 220px;
+}
+
+.table-perfil td{
+	color: #312f38;
+}
+.table-perfil input{
+	border-radius: 6px;
+}
+
+/*====Fim Página de Perfil=====*/
+
+/*====Dashboard=====*/
+.middle{
+    vertical-align: middle!important;
+    border: none!important;
+}
+.title-dash{
+	color: #312f38;
+	margin-top: 50px;
+}
+
+/*====Fim Dashboard=====*/
+
+/*====Carteira=====*/
+.lista-carteira{
+	margin-bottom: 200px;
+}
+.fake-div{
+	height: 50px;
+	margin: 50px 0;
+}
+/*====Fim Carteira=====*/
+
+/*=======Footer=======*/
+
+.menu-footer{
+	bottom: -60px;
+	background-color: #312f38;
+	height: 100px;
+	position: relative;
+
+}
+.footer{
+	font-size: 20px;
+	color: #fff;
+	position: absolute;
+	top: 40px;
+	left: 25px;
+}
+
+/*=======Fim Footer=======*/
+
+
+
+/*==========Media Queries*========*/
+
+@media screen  and  (max-width: 1024px) {
+
+	/*======Header Index======*/
+	.menu-index ul{
+		right: 5%;
+	}
+	
+	.logo a{
+		position: absolute;
+		font-size: 60px;
+		text-decoration: none;
+		color: #fff;
+		top: 30px;
+	    left: 5%;
+	 
+
+	}
+	/*=======Fim Header=======*/
+
+	/*======Header Padrão======*/
+	.menu-padrao{
+		width: 100%;
+		height: 120px;
+		max-width: 100%;
+		position: relative;
+		z-index: 99999;
+		background-color: #312f38;
+		color: #fff;
+		margin-top: -20px;
+
+	}
+	.menu-padrao ul{
+		position: absolute;
+		right: 50px;
+	    top: 50px;
+	}
+	.menu-padrao ul li{
+		position: relative;
+		display: inline-block;
+		right: -35px;
+		margin-right: 15px;
+	}
+	.menu-padrao li a{
+		text-decoration: none;
+		font-size: 20px;
+		color: #fff;
+		cursor: pointer;
+	}
+	.logo a{
+	    position: absolute;
+	    font-size: 50px;
+	    text-decoration: none;
+	    color: #fff;
+	    top: 30px;
+	    left: 15px;
+	    text-transform: uppercase;
+	}
+	
+	/*=======Fim Header Padrão=======*/
+
+	/*========index========*/
+	.title{
+		position: absolute;
+	    font-size: 50px;
+	    z-index: 2;
+	    left: 50%;
+	    top: 15%;
+	    line-height: 50px;
+	    margin-left: -202px;
+	}
+	main p{
+		margin: 0 auto;
+	}
+
+	.width-max{
+		width: 100%;
+		max-width: 100%;
+	}
+	/*========Fim index========*/
+
+	
+
+}
+
+@media screen  and  (max-width: 900px) {
+
+	/*======Header Index======*/
+	.menu-index ul{
+		right: 3%;
+	}
+	
+	.logo a{
+		position: absolute;
+		font-size: 50px;
+		text-decoration: none;
+		color: #fff;
+		top: 30px;
+	    left: 5%;
+	 
+
+	}
+	/*=======Fim Header=======*/
+
+	/*======Header Padrão======*/
+	.menu-padrao{
+		width: 100%;
+		height: 120px;
+		max-width: 100%;
+		position: relative;
+		z-index: 99999;
+		background-color: #312f38;
+		color: #fff;
+		margin-top: -20px;
+
+	}
+	.menu-padrao ul{
+		position: absolute;
+		right: 50px;
+	    top: 50px;
+	}
+	.menu-padrao ul li{
+		position: relative;
+		display: inline-block;
+		right: -35px;
+		margin-right: 15px;
+	}
+	.menu-padrao li a{
+		text-decoration: none;
+		font-size: 20px;
+		color: #fff;
+		cursor: pointer;
+	}
+	.logo a{
+	    position: absolute;
+	    font-size: 40px;
+	    text-decoration: none;
+	    color: #fff;
+	    top: 30px;
+	    left: 15px;
+	    text-transform: uppercase;
+	}
+	
+	/*=======Fim Header Padrão=======*/
+
+	/*========index========*/
+	.title{
+		position: absolute;
+	    font-size: 40px;
+	    z-index: 2;
+	    left: 50%;
+	    top: 15%;
+	    line-height: 50px;
+	    margin-left: -202px;
+	}
+	main p{
+		margin: 0 auto;
+	}
+
+	.width-max{
+		width: 100%;
+		max-width: 100%;
+	}
+	/*========Fim index========*/
+
+
+}
